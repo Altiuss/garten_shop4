@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/garten_shop4/static/css/main.3751a439.css",
+    "main.js": "/garten_shop4/static/js/main.52c1be53.js",
+    "static/media/back.png": "/garten_shop4/static/media/back.0ec975833f8929e9b88c.png",
+    "static/media/gnom.png": "/garten_shop4/static/media/gnom.1ed4a183a5b70e3dac8a.png",
+    "index.html": "/garten_shop4/index.html",
+    "main.3751a439.css.map": "/garten_shop4/static/css/main.3751a439.css.map",
+    "main.52c1be53.js.map": "/garten_shop4/static/js/main.52c1be53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3751a439.css",
+    "static/js/main.52c1be53.js"
+  ]
+}

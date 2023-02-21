@@ -1,0 +1,100 @@
+.nav {
+  position: relative;
+  width: 1440px;
+  height: 167px;
+  margin: auto;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  top: 19px;
+  left: 26px;
+}
+
+.catalog button {
+  position: absolute;
+  top: 30px;
+  left: 157px;
+  background-color: #339933;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 129px;
+  height: 49px;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category {
+  color: #339933;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 44px;
+  left: 876px;
+  text-decoration: none;
+  animation: blink-animation 1s infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: red;
+  }
+}
+
+
+.cupons {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  top: 44px;
+  right: 363px;
+  text-decoration: none;
+
+}
+
+.discount {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  top: 44px;
+  right: 251px;
+}
+
+.contact {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 500;
+  top: 44px;
+  right: 114px;
+  text-decoration: none;
+}
+
+.cart {
+  position: absolute;
+  font-size: 38px;
+  top: 35px;
+  right: 32px;
+}
+
+.cart_count{
+  position: absolute;
+  color: red;
+  font-size: 18px;
+  font-weight: 900;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+

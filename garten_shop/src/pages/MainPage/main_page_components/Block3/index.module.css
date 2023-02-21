@@ -1,0 +1,86 @@
+.section {
+  height: 480px;
+  background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 480px;
+  margin: auto;
+}
+.left {
+  width: 475px;
+  margin: 30px 0 0 90px;
+}
+
+.right {
+  width: 475px;
+  height: 480px;
+  margin: 0 255px;
+}
+
+.right h1 {
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  margin: 45px 0 0 -30px;
+  letter-spacing: 0.03em;
+}
+
+.right h2 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 0.07em;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+}
+
+.right form input {
+  width: 450px;
+  height: 75px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: #6c6c6c;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+.right form button {
+  width: 450px;
+  height: 75px;
+  border: 3px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.error {
+  position: absolute;
+  color: rgb(242, 11, 11);
+  font-size: 20px;
+  margin-top: -40px;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 370px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.left_footer {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.contact {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 48px 0 0 32px;
+}
+
+.right_footer {
+  width: 50%;
+  height: 100%;
+  padding: 0 50px 0 0;
+  margin: 10px 0 0 150px;
+}
+
+.phone {
+  width: 649px;
+  height: 50px;
+  margin: 38px 0 0 32px;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.instagram {
+  font-size: 46px;
+  margin: 10px 0 5px 6px;
+  color: black;
+}
+
+.whatsapp {
+  font-size: 46px;
+  margin: 10px 0 5px 12px;
+  color: black;
+}
+
+.soc {
+  float: left;
+  margin: 60px 0 0 40px;
+}
+.soc_text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.right_footer h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0 15px 32px;
+}
+
+.right_footer p:nth-child(2) {
+  width: 560px;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px 0 15px 62px;
+  text-decoration-line: underline;
+  text-decoration-skip: 4px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.right_footer p:nth-child(3) {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0 15px 62px;
+}
+
+.right_footer p:nth-child(4) {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 15px 62px;
+}

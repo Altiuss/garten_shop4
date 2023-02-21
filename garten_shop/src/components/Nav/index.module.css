@@ -68,6 +68,7 @@
   font-weight: 500;
   top: 44px;
   right: 251px;
+  text-decoration: none;
 }
 
 .contact {
@@ -84,6 +85,7 @@
   font-size: 38px;
   top: 35px;
   right: 32px;
+  text-decoration: none;
 }
 
 .cart_count{

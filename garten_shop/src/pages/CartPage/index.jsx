@@ -54,8 +54,6 @@ export default function CartPage() {
     handleEmptyCart();
   };
 
-console.log(...cart)
-
   return (
     <section className={s.cart_page}>
       <h1 className={s.h}>Shopping cart</h1>

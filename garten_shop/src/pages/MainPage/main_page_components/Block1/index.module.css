@@ -1,6 +1,7 @@
 .section_one {
   background-color: #a1e2eb;
   height: 600px;
+  min-width: 1500px;
 }
 
 .section_one_container {

@@ -1,5 +1,6 @@
 .section {
   height: 480px;
+  min-width: 1500px;
   background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
 }
 
